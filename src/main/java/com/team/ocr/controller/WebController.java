@@ -14,7 +14,7 @@ public class WebController {
         return "You made it!";
     }
     // Login form
-    @RequestMapping("/loginn")
+  /*  @RequestMapping("/loginn")
     public String login() {
         return "login.html";
     }
@@ -23,5 +23,5 @@ public class WebController {
     public String loginError(Model model) {
         model.addAttribute("loginError", true);
         return "login.html";
-    }
+    }*/
 }
